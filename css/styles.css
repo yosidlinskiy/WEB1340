@@ -1,0 +1,99 @@
+.grid {
+    display: grid;
+    grid-template-columns:  auto;
+    grid-gap: 2px;
+  }
+
+h1 {
+    color: grey;
+    font-family: 'Rock Salt', cursive;
+}
+
+h2 {
+    color: rgb(53, 40, 40);
+    font-family: 'Rock Salt', cursive; 
+    border: black 5px;
+}
+
+p {
+   font-size: 2em;
+   color: rgb(53, 40, 40);
+   font-family: 'Hachi Maru Pop', cursive;
+   border: black solid 2px;
+}
+
+img {
+    max-width: 100em;
+    padding-left: 10em;
+    padding-right: 20em;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+body {
+    background-image: url(../images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+nav ul {
+    background-color: #757C88;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    padding: 0%;
+    justify-content: center;
+    float: left;
+    border: 2px;
+  }
+
+  nav li {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    float: left;
+  }
+  
+  nav li a {
+    font-family: 'Bonbon', cursive;
+    font-family: 'Rock Salt', cursive;
+    color: black;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-decoration: none;
+    float: left;
+  }
+
+  nav li a:hover {
+    color: #2a1f14 ;
+    background-color: #f6eee4;
+    opacity: 0.5;
+  }
+
+  header {
+      text-align: center;
+  }
+
+  footer {
+      text-align: center;
+      padding: 1em;
+      width: 90%;
+      max-width: 20em;
+      margin: 0 auto;
+      }
+
+  main {
+      text-align: center;
+  }
